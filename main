@@ -1,0 +1,10 @@
+MOV R0, #2
+STR R0, .Resolution
+LDR R0, .PixelAreaSize
+STR R0, .WriteUnsignedNum
+
+
+
+
+
+HALT
